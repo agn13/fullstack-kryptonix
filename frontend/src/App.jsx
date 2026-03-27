@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const api = import.meta.env.VITE_API_URL || '/api';
+const api = import.meta.env.VITE_API_URL || 'https://fullstack-kryptonix.onrender.com/api';
 
 function App() {
   const [tasks, setTasks] = useState([]);
